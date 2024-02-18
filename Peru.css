@@ -1,0 +1,147 @@
+body{
+    background-image: url("close-up-view-mouth-watering-soup-served-with-lemon-green-white-bowl-flour-tomato-oil-bottle-flour-green-bundles-eggs-dark.jpg");
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+
+header{
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    height: 125px;
+    background-color: rgb(76, 97, 36);
+}
+.icon{
+    float: left;
+}
+.title{
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+h1{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    float: left;
+    font-size: 30px ;
+    color: white;
+    margin-bottom: 25px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+nav{
+    background-color: #c59a5a
+    
+}
+.platillos{
+    list-style-type: none;
+    padding: 10px;
+    margin : 10px;
+}
+.plato{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    font-size: 15px;
+    color: rgb(71, 71, 71);
+    display: inline;
+}
+
+ul {
+    padding: 10px;
+    margin : 10px;
+}
+
+li{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    font-size: 15px;
+    color: rgb(20, 20, 20);
+    line-height:2em;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: medium;
+}
+
+a:hover {
+    background-color: rgb(202, 202, 202);
+    color: rgb(37, 14, 1);
+}
+.section{
+    background-color: beige;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.link{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+footer{
+    
+    background-color: rgb(76, 97, 36);
+    padding-left: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:0px;
+    
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color:white;
+
+}
+
+@media (max-width:510px){
+    h1{
+        font-size: 20px;
+    }
+}
+
+.section{
+    padding-top: 30px; 
+}
+
+.img-peru{
+    margin-top: 30px;
+    margin-left: 10px ;
+    
+}
+#derechos{
+    color:white;
+}
+.libro-link{
+    font-size: larger;
+    background-color: rgb(55, 121, 55);
+    border-radius: 8px;
+    padding: 5px;
+    margin-left: 20px;
+}
+#Tradiciones{
+    padding: 15px;
+}
+.link-rest{
+    font-size: larger;
+    color: red;
+    
+}
+
+.arriba{
+    float: right;
+    margin-right: 30px;
+}
+.white{
+    color: white;
+}
